@@ -5,16 +5,13 @@ import Text from "./components/Text";
 import Separator from "./components/Separator/index";
 import BackButton from "./components/BackButton";
 import Dots from "./components/Dots";
+import Input from "./components/Input/Index";
 
 const App = () => {
   return (
     <>
       <Separator width={0} height={100} />
-      <Button textType="semiBold" title="Tete" />
-      <Separator width={0} height={100} />
-      <BackButton />
-      <Separator width={0} height={100} />
-      <Dots amount={4} />
+      <Input error="ghf" rightIcon leftIcon secureTextEntry name="Senha" />
     </>
   );
 };
