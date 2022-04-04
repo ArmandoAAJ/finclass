@@ -8,7 +8,7 @@ export const schemaLogin = yup
       .required("E-mail é obrigatório"),
     password: yup
       .string()
-      .required("Senha é obrigatóri")
+      .required("Senha é obrigatória")
       .min(6, "Pelo menos 6 caracteres"),
   })
   .required();
