@@ -13,12 +13,14 @@ import {
   OptionRightHeader,
 } from "./styles";
 import { Controller, useForm } from "react-hook-form";
-import Input from "../../components/Input/Index";
+import Input from "../../components/Input";
 import Button from "../../components/Button";
 import { schemaLogin } from "./validation";
 import { useNavigation } from "@react-navigation/native";
+import useAuth from "../../hooks/useAuth";
 
 const Login: React.FC = () => {
+  const { login } = useAuth();
   const navigation = useNavigation();
   const {
     control,
@@ -39,7 +41,7 @@ const Login: React.FC = () => {
 
   async function onSubmit() {
     await handleSubmit(({ email, password }) => {
-      //TODO
+      login();
     })();
   }
 
