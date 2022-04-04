@@ -21,9 +21,11 @@ import { ScrollView } from "react-native";
 import Separator from "../../components/Separator";
 import ListTile from "./components/ListTile";
 import Button from "../../components/Button";
+import useAuth from "../../hooks/useAuth";
 
 const Menu: React.FC = () => {
   const { colors } = useTheme();
+  const { logout } = useAuth();
   return (
     <Container>
       <ScrollView
@@ -104,7 +106,12 @@ const Menu: React.FC = () => {
           icon={<IconTitle source={IconTerms} />}
         />
         <Separator height={30} />
-        <Button textType="bold" outlined title="Sair" onPress={() => {}} />
+        <Button
+          textType="bold"
+          outlined
+          title="Sair"
+          onPress={() => logout()}
+        />
         <Separator height={30} />
         <Text size={12} type="bold" color={colors.placeholder.main}>
           Finclass 1.3.0
