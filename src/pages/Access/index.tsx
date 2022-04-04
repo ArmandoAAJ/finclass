@@ -5,7 +5,7 @@ import Separator from "../../components/Separator";
 
 import ImageBanner from "../../../assets/images/banner/image.png";
 import ImageEmailIcon from "../../../assets/icons/email.png";
-import { Container, Content, Banner, EmailIcon, ImpactPhrase } from "./styles";
+import { Container,Content, Banner, EmailIcon, ImpactPhrase } from "./styles";
 import { useTheme } from "styled-components";
 import { useNavigation } from "@react-navigation/native";
 
