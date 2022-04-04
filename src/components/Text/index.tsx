@@ -16,7 +16,7 @@ const Text = ({
     <Container
       type={type}
       size={size}
-      color={color || colors.background.main}
+      color={color || colors.background.onMain}
       {...rest}
     >
       {children}

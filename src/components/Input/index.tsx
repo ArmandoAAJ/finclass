@@ -43,8 +43,8 @@ const Input = ({
           {name}
         </Label>
       )}
-      {!!leftIcon && <LeftIconContainer>{leftIcon}</LeftIconContainer>}
       <Content>
+        {!!leftIcon && <LeftIconContainer>{leftIcon}</LeftIconContainer>}
         <TextInput
           {...rest}
           hasLeftIcon={!!leftIcon}
