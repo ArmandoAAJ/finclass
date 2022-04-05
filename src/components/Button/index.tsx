@@ -20,7 +20,7 @@ const Button = ({
   const titleColor = useMemo(() => {
     if (textColor) return textColor;
     if (disabled) return colors.backdrop.main;
-    return outlined ? colors.backdrop.main : colors.background.main;
+    return outlined ? colors.backdrop.onMain : colors.background.main;
   }, [textColor, disabled, outlined, colors]);
 
   return (
