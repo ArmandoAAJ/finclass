@@ -2,7 +2,7 @@ import styled from "styled-components/native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { FinclassIconProps } from "./types";
 
-export const Container = styled.View`
+export const Container = styled.ScrollView`
   flex: 1;
   background-color: ${({ theme }) => theme.colors.background.main};
 `;

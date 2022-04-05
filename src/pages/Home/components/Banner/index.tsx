@@ -34,10 +34,10 @@ const Banner = ({ description, presenter, source }: Props) => {
           <ButtonHeaderContainer>
             <ButtonIcon
               source={playIcon}
-              style={{ tintColor: colors.background.onMain }}
+              style={{ tintColor: colors.background.main }}
             />
             <Separator width={10} />
-            <Text type="bold" size={12} color={colors.background.onMain}>
+            <Text type="bold" size={12} color={colors.background.main}>
               Assistir
             </Text>
           </ButtonHeaderContainer>
