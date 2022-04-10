@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="DevRadar" title="DevRadar" src=".github/catapulta.png" width="200px" />
+  <img alt="imagem fundo azul escuro e a logo verde no centro escrito catapulta" title="catapulta" src=".github/catapulta.png" width="200px" />
 </h1>
 
 <h3 align="center">
@@ -14,9 +14,9 @@
   <a href="#-instalação-e-execução">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
-<div  align="center">
-<img src=".github/catapulta.gif" width="250" height="450" />
-</div>
+
+https://user-images.githubusercontent.com/7575325/162637545-849314bf-12c8-46fd-8bcd-f21072bfc4d7.mp4
+
 <br>
 
 ## 🚀 Tecnologias
