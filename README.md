@@ -14,7 +14,9 @@
   <a href="#-instalação-e-execução">Instalação e execução</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-licença">Licença</a>
 </p>
-
+<div  align="center">
+<img src=".github/catapulta.gif" width="250" height="450" />
+</div>
 <br>
 
 ## 🚀 Tecnologias
